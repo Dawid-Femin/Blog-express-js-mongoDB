@@ -1,8 +1,32 @@
 body {
-  padding: 50px;
+  padding: 20px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #ff0000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #c30000;
 }
 
 a {
-  color: #00B7FF;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: yellowgreen;
 }

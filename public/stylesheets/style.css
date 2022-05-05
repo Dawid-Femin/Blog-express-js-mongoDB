@@ -30,3 +30,12 @@ a {
 .active {
   color: yellowgreen;
 }
+
+.secondBtn {
+  color: blue;
+}
+
+table {
+  text-align: center;
+  margin: 0 auto;
+}
